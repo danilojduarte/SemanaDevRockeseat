@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
 }
 
 
@@ -10,6 +13,18 @@ body {
     padding-top: 160px;
     background-image: url(../Desafio01/bkg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 100vh;
+
+    font-family: 'Inter', sans-serif;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
 }
 
 h3 span {
@@ -22,12 +37,15 @@ h1 {
     font-weight: 400;
     font-size: 64px;
     line-height: 80px;
+    font-family: 'Emilys Candy', cursive;
 }
 
 p {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 72px;
+    color: black;
+    opacity: .7;
 }
 
 a {
@@ -36,6 +54,9 @@ a {
     font-size: 20px;
     line-height: 24px;
     transition: all .3s ease-in-out;
+    color: white;
+    opacity: .6;
+
 }
 
 a:hover,
@@ -43,4 +64,5 @@ a:hover,
     text-decoration: none;
     color: black;
     background-color: #ffc700;
+    opacity: 1;
 }
