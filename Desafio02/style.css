@@ -5,5 +5,37 @@
 }
 
 body {
-    
+    font-family: 'Cinzel', serif;
+    background-image: url(../Desafio02/img/background01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 160px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+
+    color: #151718;
+}
+
+h1 span {
+    color: #DB2777;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: rgba(44, 46, 47, 0.9);
 }
