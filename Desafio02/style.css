@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
 }
 
 body {
@@ -38,4 +41,38 @@ p {
     text-align: center;
 
     color: rgba(44, 46, 47, 0.9);
+}
+
+.section__button  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+a {
+    padding: 12px 32px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    transition: all .3s ease-in-out;
+    color: black;
+    opacity: .6;
+    align-items: center;
+    border: none;
+}
+
+a:hover,
+.btn__play__2 {
+    text-decoration: none;
+    color: white;
+    background-color: #ffc700;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.btn__play__2:hover {
+    background: black;
+    color: white;
 }
