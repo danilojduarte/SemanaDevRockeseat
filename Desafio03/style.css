@@ -4,6 +4,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
 }
 
 body {
@@ -13,12 +14,45 @@ body {
     height: 100vh;
 
     color: #ebf1fb;
+
+    display: grid;
+    place-content: center;
 }
 
 h1 {
     font-family: 'Beth Ellen', cursive;
-    color: #ebf1fb;
     font-weight: 400;
     font-size: 64px;
     line-height: 120px;
+}
+
+h1 span {
+    color: #5eead4;
+}
+
+p {
+  font-weight: 500; 
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 72px;
+}
+
+a {
+    color: #ebf1fb;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+a:hover,
+.btn__button {
+    background: #5eead4;
+    border-radius: 8px;
+    color: #0b0c0e;
 }
